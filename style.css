@@ -1,0 +1,292 @@
+
+
+body,h1,h2,h3,h4,h5,h6,span{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.header-menu .navbar-brand {
+	font-size: 25px;
+    transition: all 0.3s;
+    color: #000;
+}
+.header-menu .navbar-brand:hover{
+    color: #ccc;
+}
+.header-menu .navbar-nav{
+    margin-left: 100px;    
+}
+.header-menu span {
+	display: inline-block;
+	height: 45px;
+	width: auto;
+	background: #6278df;
+	color: #fff;
+	padding: 5px 15px;
+	border-radius: 8px;	
+}
+.header-menu .btn {
+	padding: 5px 20px;
+  font-weight: 600;
+  background: #6278df;
+  color: #fff;
+}
+.header-menu .btn:hover{
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ibb.co/vQJJq9L/Banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center center;
+    padding: 150px 0;
+    color: #fff;
+    text-align: center;
+}
+.banner h4{
+    margin-bottom: 35px;
+}
+.banner h2{
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.form-control{
+	padding: 15px 30px !important;
+}
+.slider-caption .btn{
+	padding: 10px 70px;
+	background: #5ba533;
+	border: #5ba533;
+  font-size: 28px;
+  font-weight: 600;    
+}
+.slider-caption .btn:hover{
+    box-shadow: 3px 3px 27px -3px #6278df;
+    background: #fff;
+    color: #6278df !important;
+    border: #6278df;
+}
+
+/* About Section Styling Start */
+.about{
+    background: #f7f9ff;
+}
+.about-text{
+    margin-top: 100px;
+}
+.about-text h1{}
+.about-text p{
+    text-align: justify;
+}
+/* About Section Styling End */
+
+/* Services Section Styling Start */
+
+.features-item .card-content{
+    margin-top: 40px;
+}
+.features-item .card-content p{
+    line-height: 25px;
+}
+
+.features-item .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    transition: all 0.3 ease;
+}
+.features-item .card:hover{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+/* Services Section Styling End */
+
+/* Portfolio Section Styling Start */
+.portfolio{}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(98, 120, 223, 0.7);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/* Portfolio Section Styling End */
+
+/* Priceing Table Section Styling Start */
+.pricing-table{
+    background: #f7f9ff;
+}
+
+.pricing-table-item{
+    background: #fff; 
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    padding: 50px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.pricing-table-item:hover{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.pricing-table-item p{
+    color: #767676;
+    font-size: 25px;
+}
+.pricing-table-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.pricing-table-item ul li{
+    margin-top: 20px;    
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.pricing-table-item ul li span{    
+    font-size: 25px;
+    font-weight: bolder;
+    color: #6278df;
+    width: 40px;
+    display: inline-block;
+   
+}
+
+.pricing-item-button{}
+.pricing-item-button a {
+    display: inline-block;
+	border: none;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+	padding: 15px 30px;
+	color: #6278df;
+    font-weight: 600;
+    font-size: 23px;
+    transition: all 0.3s;
+}
+.pricing-item-button a:hover{
+    background: #000 !important;
+    color: #fff !important;
+}
+
+.pricing-table-item:hover .pricing-item-button a{
+    background: #6278df;
+    color: #fff;
+}
+/* Priceing Table Section Styling End */
+.client-item .span-qute {
+	font-size: 100px;
+	display: inline-block;
+	color: #cccc;
+	margin-top: -45px;
+}
+.client-item h1{
+	font-size: 45px;
+	font-weight: 400;
+}
+/* Team Section Styling Start */
+.team{
+    background: #f7f9ff;
+}
+.team .card-item{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    transition: all 0.3s ease;
+}
+.team .card-item:hover{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.5);
+}
+.team img{
+    margin-top: -70px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.5);
+    margin-left: 10px;
+}
+.team h5 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.team .btn{    
+        display: inline-block;
+        border: none;
+        box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+        padding: 8px 18px;
+        color: #465052;
+        font-weight: 600;
+        font-size: 18px;
+        transition: all 0.3s;
+}
+.team .btn:hover{
+    background: #465052 !important;
+    color: #fff !important;
+}
+/* Team Section Styling End */
+/* Contact Section Styling Start */
+.contact-form{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+
+}
+.contact-form .btn{
+	background-color: #6278df;
+	border-color: #6278df;
+	color: #ffffff;
+    padding: 15px 30px;
+    
+}
+.btn:hover{
+	background-color: white !important;
+	color: #6278df !important;
+	border-color: #6278df !important;
+	box-shadow: 3px 3px 27px -3px #6278df !important;
+}
+/* Contact Section Styling End */
+.watch-btn{}
+.watch-btn .btn{
+    background: none;
+    border-color: #5ba533;
+    color: #5ba533;
+    padding: 15px 30px;
+    font-style: 20px;
+    font-weight: 600;
+}
+.watch-btn .btn:hover{
+    background: #5ba533 !important;
+    color: #fff !important;
+    box-shadow: 3px 3px 27px -3px #5ba533 !important;
+}
+.watch-btn .btn-2{
+    background: #5ba533 !important;
+    color: #fff !important;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 27px -3px #5ba533;
+   
+}
+.watch-btn .btn-2:hover{
+    background: #000 !important;
+    color: #fff !important;
+    box-shadow: none;
+}
+/* Watch btn Section Styling Start */
+
+
+/* Watch btn Section Styling End */
+
+/* Footer Section Styling Start */
+footer{
+    background: #f7f9ff;
+}
+footer p{
+    font-size: 20px;
+}
+/* Footer Section Styling End */
